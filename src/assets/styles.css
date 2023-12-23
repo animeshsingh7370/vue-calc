@@ -1,0 +1,126 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Roboto&display=swap");
+
+body {
+  background-image: url("bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.calculator {
+  display: flex;
+  flex-direction: column;
+  max-width: 27vw;
+  max-height: auto;
+  /* border:solid 5px red; */
+  border-radius: 15px;
+  margin-left: 35vw;
+  margin-top: 15vh;
+  background-color: #191919;
+}
+
+.profile {
+  padding: 10px 10px 0px 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.menu-icon {
+  height: 28px;
+  width: 28px;
+  /* border-radius: 50%; */
+  /* margin-left: 16vw; */
+}
+
+h3 {
+  font-family: "Josefin Sans", sans-serif;
+  /* font-family: 'Roboto', sans-serif; */
+  font-size: 20px;
+  color: white;
+  margin-left: 10px;
+}
+
+.profile-img {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  margin-left: 14vw;
+  border: #a160fb solid 2px;
+}
+
+.exp-box {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  width: 100%;
+
+  width: 23vw;
+  height: 200px;
+
+  font-size: 30px;
+  resize: none;
+  margin: 0px 10px 10px 17px;
+  background-color: #191919;
+  border: none;
+  outline: none;
+  color: white;
+  box-shadow: 0px 10px 0px 0px #000000;
+  padding: 10px 10px;
+  border-radius: 10px;
+}
+
+.button-box {
+  display: grid;
+
+  margin: 10px 10px 15px 13px;
+
+  grid-template-rows: 55px 55px 55px 55px 55px;
+  grid-template-columns: 65px 65px 65px 65px 65px;
+  grid-gap: 13px 13px;
+}
+
+button {
+  background-color: #191919;
+  row-gap: 10px;
+  column-gap: 10px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 400;
+  font-size: 25px;
+  font-weight: 500;
+  color: white;
+  border-radius: 10px;
+  border-color: #000000;
+  box-shadow: 10px 10px 5px 0px #000000;
+}
+
+sup {
+  font-size: 20px;
+  color: #a160fb;
+}
+
+.plus,
+.equal {
+  height: 120px;
+}
+
+.ac,
+.delete,
+.modulus,
+.divide,
+.square_rt {
+  color: rgba(255, 255, 255, 0.404);
+}
+.equal {
+  background-color: #a160fb;
+  border-color: #a160fb;
+  box-shadow: 10px 10px 5px 0px #000000;
+  
+}
+
+.equal{
+    transition: transform 0.5s ;
+    
+}
+
+.equal:hover{
+    transform :scaleX(1.1) scaleY(1.1) rotateZ(5deg) ; 
+    
+}
