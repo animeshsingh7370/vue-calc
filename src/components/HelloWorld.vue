@@ -30,11 +30,18 @@
           <button class="point" @click="appendValue('.')">.</button>
           <button class="square" @click="appendValue('^')">^</button>
           <button class="zero" @click="appendValue(0)">0</button>
-          
-        
-
       </div>
  </div>
+
+
+ <div class="info">
+    
+  
+  <p class="note">This website is best suited to be viewed on wider screens.<br>
+    <span class="name">@ 2023 Animesh Singh</span>
+  </p>
+ </div>
+ 
 </template>
 
 <script>
